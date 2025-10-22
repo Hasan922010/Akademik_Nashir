@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    border-top: 3px solid orange;
+    height: 100px;
+    line-height: 100px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav ul li button {
+    width: 140px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+main {
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 50px 0;
+    height: 380px;
+    
+
+}
+
+main .container {
+    gap: 150px;
+
+}
+
+main .container p,
+h1 {
+    margin: 20px 0;
+}
+
+aside .container h1 {
+    font-size: 50px;
+
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+.pythonb {
+    margin-left: 20px;
+}
+
+aside {
+    padding: 200px 0;
+
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}
+/* ------------------------------------------------------ */
+.content div {
+    width: 33.3%;
+}
+
+.icon {
+    background-color: rgb(247, 219, 167);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.book {
+    display: flex;
+    padding: 50px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    position: relative;
+    margin-top: 200px;
+    font-size: 18px;
+    border-radius: 20px;
+    
+
+
+    
+}
+.book p,h1{
+    margin: 10px 0;
+    padding: 30px;
+
+}
+
+.bookimg {
+    border-radius: 0;
+    margin-left: 20px;
+   position: absolute;
+    bottom: 170px;
+    right: 50px;
+    border-radius: 10px;
+    height: 440px;
+    
+   
+    
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: white;
+     margin-left: 20px;
+}
+footer .container ul li{
+    list-style: none;
+}
+footer{
+    background-color:rgb(236, 236, 236) ;
+    padding: 50px 0;
+}
+.logo_icons{
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+}
+.ung{
+    display: flex;
+    gap: 20px;
+}
+
+.lists{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.active1{
+    color: orangered;
+    
+}
+span{
+    color: orangered;
+}
+.active{
+    border-bottom:4px solid orangered ;
+}
